@@ -34,13 +34,14 @@ export default {
   color: #d9d9d9;
 }
 .card-container {
-  font-size: 30px;
+  font-size: 25px;
   padding: 10px 0px;
 }
 .card-charts {
-  height: 50px;
+  height: 40px;
 }
 .card-footer {
   border-top: 1px solid #eee;
+  padding-top: 15px;
 }
 </style>

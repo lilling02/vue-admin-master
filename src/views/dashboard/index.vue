@@ -1,6 +1,6 @@
 <template>
   <div class="dashboard-container">
-    <!-- <card></card> -->
+    <card></card>
   </div>
 </template>
 
