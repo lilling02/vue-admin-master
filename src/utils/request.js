@@ -10,6 +10,9 @@ const service = axios.create({
   timeout: 5000, // request timeout
 });
 
+
+
+
 // request interceptor
 //请求拦截器 发请求要带着token
 service.interceptors.request.use(
