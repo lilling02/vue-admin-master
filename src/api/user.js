@@ -2,7 +2,7 @@ import request from "@/utils/loginRequest";
 
 export function login(data) {
   return request({
-    url: "/dev-api/admin/acl/index/login",
+    url: "/admin/acl/index/login",
     // 这是mock数据的链接
     // url: "/vue-admin-template/user/login",
     method: "post",
@@ -12,7 +12,7 @@ export function login(data) {
 
 export function getInfo(token) {
   return request({
-    url: "/dev-api/admin/acl/index/info",
+    url: "/admin/acl/index/info",
     method: "get",
     params: { token },
   });
@@ -20,7 +20,7 @@ export function getInfo(token) {
 
 export function logout() {
   return request({
-    url: "/dev-api/admin/acl/index/logout",
+    url: "/admin/acl/index/logout",
     method: "post",
   });
 }
